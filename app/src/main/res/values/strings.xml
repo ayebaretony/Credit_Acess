@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Credit Access</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">BANKS</string>
+    <string name="backdrop_titletwo">Micro Finance</string>
+    <string name="backdrop_subtitle">choose A Bank And Compare Rates</string>
+    <string name="backdrop_subtitletwo">Choose A Micro Finance</string>
+    <string name="menu_item_one">About US</string>
+    <string name="Choosing_financial">Choose A Financial Service</string>
+    <string name="banks">Banks</string>
+    <string name="mfi">MFI</string>
+    <string name="news">News:</string>
+    <string name="title_activity_maps">Credit Access</string>
+
+</resources>

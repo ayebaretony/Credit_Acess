@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/whiteBackground"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Us"
+        android:id="@+id/aboutus"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|normal"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/geogecko"
+        android:id="@+id/imageView3"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/aboutus"
+        android:layout_toStartOf="@+id/aboutus"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hot"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/aboutus"
+        android:layout_toEndOf="@+id/aboutus"/>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/aboutus">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="text goes here"
+        android:id="@+id/abouttxt"
+        android:textStyle="bold|normal"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_below="@+id/aboutus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</ScrollView>
+
+</RelativeLayout>

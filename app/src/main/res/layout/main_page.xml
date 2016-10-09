@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteBackground"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:src="@drawable/main"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subh"
+        android:text="@string/Choosing_financial"
+        android:layout_below="@+id/main"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/redForground"
+        android:textStyle="normal|bold"/>
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:id="@+id/bank"
+            android:src="@drawable/banklogo"
+            android:background="@color/whiteBackground"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:layout_below="@+id/subh"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/mfi"
+        android:padding="20dp"
+        android:src="@drawable/finance"
+        android:background="@color/whiteBackground"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:layout_below="@+id/bank"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="BANKS"
+        android:id="@+id/textView5"
+        android:textColor="@color/black"
+        android:foregroundGravity="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/bank"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Micro Finance"
+        android:textColor="@color/black"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/mfi"
+        android:layout_alignLeft="@+id/main"
+        android:layout_alignStart="@+id/main"/>
+
+</RelativeLayout>

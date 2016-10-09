@@ -1,0 +1,22 @@
+
+                       Credit Access
+Was created by a team of innovative individuals after winning the GIS App challenge they include: 
+1.Tony Ayebare (Developer).
+2.Emmanuel Adiba (Team Leader).
+3.Orena James Peter (GIS Specialist)
+
+This App is open source and the source code an be found on the link on our website
+                  www.creditaccess.com
+
+Credit Access is an App that intends to help a user locate a financial service 
+centers near them and goes on to give them additional useful information 
+that they can use to determine which financial center 
+will be able to serve them well.
+
+Powers By OSM Base maps
+
+Email: ayebaretony@gmail.com
+
+TEL: +256700360688.
+
+                 ©2016 CreditAccess
